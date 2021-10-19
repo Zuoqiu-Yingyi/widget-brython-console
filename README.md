@@ -1,7 +1,6 @@
 # Brython 控制台挂件 / widget-brython-console
 
-一个简单可离线运行的的 Brython 控制台挂件
-
+一个简单可离线运行的的 Brython 控制台挂件<br>
 A sample, offline-running widget of Brython Console.
 
 ---
@@ -12,13 +11,13 @@ A sample, offline-running widget of Brython Console.
 
 # 功能 / FUNCTION
 
-- 离线使用 Brython 库交互式运行 Python 脚本
+- 离线使用 Brython 库交互式运行 Python 脚本<br>
   Run Python scripts offline using the Brython library interactively.
-  - Brython 库所实现的模块详见 [Brython documentation](https://brython.info/static_doc/en/intro.html)
+  - Brython 库所实现的模块详见 [Brython documentation](https://brython.info/static_doc/en/intro.html)<br>
     Details of the modules implemented by the library can be found at [Brython documentation](https://brython.info/static_doc/en/intro.html)
-- 可拖动的工具栏
+- 可拖动的工具栏<br>
   A removable toolbar.
-  - 一个`亮色`与`暗色`主题切换开关
+  - 一个`亮色`与`暗色`主题切换开关<br>
     A switch for switching between `Light` and `Dark` themes.
 
 # 依赖 / DEPENDENCE
