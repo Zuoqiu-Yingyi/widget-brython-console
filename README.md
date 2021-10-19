@@ -20,6 +20,20 @@ A sample, offline-running widget of Brython Console.
   - 一个`亮色`与`暗色`主题切换开关<br>
     A switch for switching between `Light` and `Dark` themes.
 
+# 开始 / START
+
+## 自动 / AUTO
+
+该挂件已在思源集市上架, 可直接在集市中安装<br>
+The widget has been put on the shelves at Siyuan Bazaar and can be installed directly in the Bazaar.
+
+## 手动 / MANUAL
+
+1. 在 [./releases](./releases) 中下载发行包, 解压后放到[思源笔记](https://github.com/siyuan-note/siyuan) `<工作空间>/data/widgets/` 目录下<br>
+   Download the release package in [./releases](./releases), unzip it and place it in the `<workspace>/data/widgets/` directory of [SiYuan Note](https://github.com/siyuan-note/siyuan)
+2. 在笔记中创建一个 `IFrame` 块, 地址填 `/widgets/widgets-brython-console` 即可<br>
+   Create an `IFrame` block in your notes with the address filled in `/widgets/widgets-brython-console`
+
 # 依赖 / DEPENDENCE
 
 ## 源码 / SOURCE
