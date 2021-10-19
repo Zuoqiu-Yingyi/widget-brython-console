@@ -1,0 +1,82 @@
+body {
+    margin: 1px;
+}
+
+.codearea {
+    background-color: #1F1F1F;
+    color: #CCC;
+    font-family: 'Sarasa Mono SC', 'Oxygen Mono', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace;
+    font-size: 14px;
+    /* overflow: auto; */
+    /* margin-top: 52px; */
+    width: 100%;
+    height: 100%;
+}
+
+/* switch */
+
+/* switch-box */
+#tool-box {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    z-index: 8;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 16px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #999;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 32px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

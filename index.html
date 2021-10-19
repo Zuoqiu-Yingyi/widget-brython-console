@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>Brython 控制台</title>
+    <meta charset="UTF-8" name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="./assets/Brython-3.10.0/brython.js"></script>
+    <script type="text/javascript" src="./assets/Brython-3.10.0/brython_stdlib.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/main.css">
+    <!-- <script src="https://cdn.bootcdn.net/ajax/libs/brython/3.9.5/brython.min.js"></script> -->
+    <!-- <script src="https://cdn.bootcdn.net/ajax/libs/brython/3.9.5/brython_stdlib.min.js"></script> -->
+</head>
+
+<body onload="brython()">
+    <div id="tool-box">
+        <div>
+            <label style="color: gray;">暗色/Dark</label>
+
+            <label id="switch-dark" class="switch">
+                <input id="switch-dark-input" type="checkbox" checked>
+                <div class="slider round"></div>
+            </label>
+        </div>
+    </div>
+    <textarea id="code" class="codearea"></textarea>
+    <!-- <script type="text/javascript" src="/theme/metro.min.js"></script> -->
+    <!-- <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script> -->
+</body>
+
+<script type="text/python" src="./assets/main.py"></script>
+
+</html>
