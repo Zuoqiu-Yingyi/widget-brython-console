@@ -3,6 +3,9 @@
 一个简单可离线运行的的 Brython 控制台挂件<br>
 A sample, offline-running widget of Brython Console.
 
+现已上架[思源笔记社区集市](https://github.com/siyuan-note/bazaar), 如果您需要订阅[思源笔记](https://github.com/siyuan-note/siyuan)增值服务，欢迎使用我的推荐码: **h0sc9rc**<br>
+It is now on the shelves of the [Siyuan Notes Community Bazaar](https://github.com/siyuan-note/bazaar). If you need to subscribe to the value-added services of [siyuan note](https://github.com/siyuan-note/siyuan/blob/master/README_en_US.md), please use my referral code: **h0sc9rc**
+
 ---
 
 # 预览 / PREVIEW
