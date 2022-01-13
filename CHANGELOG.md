@@ -1,5 +1,7 @@
 # 更改日志 | CHANGE LOG
 
+## v0.1.5/2022-01-13
+
 - 配色跟随主题切换 | The color matching follows the theme switch.
 
 ## v0.1.4/2022-01-10
