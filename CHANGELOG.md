@@ -1,5 +1,7 @@
 # 更改日志 | CHANGE LOG
 
+- 配色跟随主题切换 | The color matching follows the theme switch.
+
 ## v0.1.4/2022-01-10
 
 - 更新 Brython 版本至 [3.10.4](https://github.com/brython-dev/brython/releases/tag/3.10.4) / Update Brython version to [3.10.4](https://github.com/brython-dev/brython/releases/tag/3.10.4).

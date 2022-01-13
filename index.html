@@ -14,10 +14,10 @@
 <body onload="brython()">
     <div id="tool-box">
         <div>
-            <label style="color: gray;">暗色/Dark</label>
+            <label style="color: gray;">主题|theme</label>
 
-            <label id="switch-dark" class="switch">
-                <input id="switch-dark-input" type="checkbox" checked>
+            <label id="switch-theme" class="switch">
+                <input id="switch-theme-input" type="checkbox" checked>
                 <div class="slider round"></div>
             </label>
         </div>
@@ -26,7 +26,17 @@
     <!-- <script type="text/javascript" src="/theme/metro.min.js"></script> -->
     <!-- <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script> -->
 </body>
+<script type="text/javascript">
+  /* 引入全局主题配置文件 */
+  let themeDefaultStyle = window.parent.document.getElementById('themeDefaultStyle');
+  let themeStyle = window.parent.document.getElementById('themeStyle');
+  let head = document.getElementsByTagName('HEAD').item(0);
 
+  head.appendChild(themeDefaultStyle.cloneNode(true));
+  if (themeStyle != null) {
+    head.appendChild(themeStyle.cloneNode(true));
+  }
+</script>
 <script type="text/python" src="./assets/main.py"></script>
 
 </html>

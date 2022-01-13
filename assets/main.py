@@ -1,5 +1,5 @@
 from interpreter import Interpreter
-from browser import bind, document, alert
+from browser import bind, document
 
 # 在 id 为 "code" 文本区中启动一个交互式控制台
 # Start an interactive interpreter in textarea with id "code"
@@ -8,10 +8,11 @@ Interpreter("code")
 COLOR_DARK = "#CCC"
 BACKGROUND_COLOR_DARK = "#1F1F1F"
 
-COLOR_LIGHT = "#1F1F1F"
-BACKGROUND_COLOR_LIGHT = "#FFF"
+COLOR_DEFAULT = "var(--b3-theme-on-background)"
+BACKGROUND_COLOR_DEFAULT = "var(--b3-theme-background)"
 
-@bind("#switch-dark", "click")
+
+@bind("#switch-theme", "click")
 def colorChange(event):
     def setColor(color, backgroundColor, elements):
         """ 设置控制台的颜色(Set the color of the console) """
@@ -19,21 +20,23 @@ def colorChange(event):
             element.style.color = color
             element.style.backgroundColor = backgroundColor
 
-    if not document["switch-dark-input"].checked: # 变更为浅色主题(change to light theme)
+    if document["switch-theme-input"].checked:  # 跟随主题(Follow the theme)
         setColor(
-            color=COLOR_LIGHT,
-            backgroundColor=BACKGROUND_COLOR_LIGHT,
+            color=COLOR_DEFAULT,
+            backgroundColor=BACKGROUND_COLOR_DEFAULT,
             elements=document.select('.codearea'),
         )
-    else: # 变更为深色主题(change to dark theme)
+    else:  # 变更为深色主题(change to dark theme)
         setColor(
             color=COLOR_DARK,
             backgroundColor=BACKGROUND_COLOR_DARK,
             elements=document.select('.codearea'),
         )
 
+
 class ElementMove:
     """ 鼠标移动元素(Mouse moves element) """
+
     def __init__(self, moving):
         """Make "moving" element movable with the mouse"""
         self.moving = moving
@@ -65,5 +68,6 @@ class ElementMove:
         """When user releases the mouse button, stop moving the element"""
         self.is_moving = False
         document.unbind("mousemove")
+
 
 ElementMove(document["tool-box"])

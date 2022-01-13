@@ -3,8 +3,8 @@ body {
 }
 
 .codearea {
-    background-color: #1F1F1F;
-    color: #CCC;
+    color: var(--b3-theme-on-background);
+    background-color: var(--b3-theme-background);
     font-family: 'Sarasa Mono SC', 'Oxygen Mono', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace;
     font-size: 14px;
     /* overflow: auto; */
