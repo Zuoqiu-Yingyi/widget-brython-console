@@ -4,7 +4,7 @@ body {
 
 .codearea {
     color: var(--b3-theme-on-background);
-    background-color: var(--b3-theme-background);
+    background-color: transparent;
     font-family: 'Sarasa Mono SC', 'Oxygen Mono', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace;
     font-size: 14px;
     /* overflow: auto; */

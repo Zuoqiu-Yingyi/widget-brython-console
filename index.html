@@ -27,15 +27,17 @@
     <!-- <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script> -->
 </body>
 <script type="text/javascript">
-  /* 引入全局主题配置文件 */
-  let themeDefaultStyle = window.parent.document.getElementById('themeDefaultStyle');
-  let themeStyle = window.parent.document.getElementById('themeStyle');
-  let head = document.getElementsByTagName('HEAD').item(0);
+    /* 引入全局主题配置文件 */
+    let themeDefaultStyle = window.parent.document.getElementById('themeDefaultStyle');
+    let themeStyle = window.parent.document.getElementById('themeStyle');
+    let head = document.getElementsByTagName('HEAD').item(0);
 
-  head.appendChild(themeDefaultStyle.cloneNode(true));
-  if (themeStyle != null) {
-    head.appendChild(themeStyle.cloneNode(true));
-  }
+    if (themeDefaultStyle != null) {
+        head.appendChild(themeDefaultStyle.cloneNode(true));
+    }
+    if (themeStyle != null) {
+        head.appendChild(themeStyle.cloneNode(true));
+    }
 </script>
 <script type="text/python" src="./assets/main.py"></script>
 
