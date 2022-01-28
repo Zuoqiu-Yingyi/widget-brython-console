@@ -6,6 +6,7 @@
 ![GitHub Release Date](https://img.shields.io/github/release-date/Zuoqiu-Yingyi/widget-brython-console)
 ![GitHub](https://img.shields.io/github/license/Zuoqiu-Yingyi/widget-brython-console)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Zuoqiu-Yingyi/widget-brython-console)
+![GitHub repo size](https://img.shields.io/github/repo-size/Zuoqiu-Yingyi/widget-brython-console)
 ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hy/Zuoqiu-Yingyi/widget-brython-console?label=hits)
 ![GitHub all releases](https://img.shields.io/github/downloads/Zuoqiu-Yingyi/widget-brython-console/total)
 
