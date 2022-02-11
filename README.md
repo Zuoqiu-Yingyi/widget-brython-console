@@ -2,13 +2,13 @@
 
 <center>
 
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Zuoqiu-Yingyi/widget-brython-console?include_prereleases)
-![GitHub Release Date](https://img.shields.io/github/release-date/Zuoqiu-Yingyi/widget-brython-console)
-![GitHub](https://img.shields.io/github/license/Zuoqiu-Yingyi/widget-brython-console)
-![GitHub last commit](https://img.shields.io/github/last-commit/Zuoqiu-Yingyi/widget-brython-console)
-![GitHub repo size](https://img.shields.io/github/repo-size/Zuoqiu-Yingyi/widget-brython-console)
-![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hy/Zuoqiu-Yingyi/widget-brython-console?label=hits)
-![GitHub all releases](https://img.shields.io/github/downloads/Zuoqiu-Yingyi/widget-brython-console/total)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Zuoqiu-Yingyi/widget-brython-console?include_prereleases&style=flat-square)
+![GitHub Release Date](https://img.shields.io/github/release-date/Zuoqiu-Yingyi/widget-brython-console?style=flat-square)
+![GitHub](https://img.shields.io/github/license/Zuoqiu-Yingyi/widget-brython-console?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/Zuoqiu-Yingyi/widget-brython-console?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/Zuoqiu-Yingyi/widget-brython-console?style=flat-square)
+![hits](https://hits.b3log.org/Zuoqiu-Yingyi/widget-brython-console.svg)
+![GitHub all releases](https://img.shields.io/github/downloads/Zuoqiu-Yingyi/widget-brython-console/total?style=flat-square)
 
 </center>
 
