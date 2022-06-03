@@ -1,5 +1,9 @@
 # 更改日志 | CHANGE LOG
 
+## v0.1.7/2022-06-03
+
+- 更新 Brython 版本至 [3.10.6](https://github.com/brython-dev/brython/releases/tag/3.10.6) / Update Brython version to [3.10.6](https://github.com/brython-dev/brython/releases/tag/3.10.6).
+
 ## v0.1.6/2022-01-17
 
 - 修复在非 iframe 模式下获取主题配置文件失败的问题 | Fix an issue where getting a theme configuration file in non-iframe mode.
