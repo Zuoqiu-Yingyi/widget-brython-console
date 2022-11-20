@@ -1,6 +1,7 @@
 # 更改日志 | CHANGE LOG
 
 - 更新 Brython 版本至 [3.10.7](https://github.com/brython-dev/brython/releases/tag/3.10.7) / Update Brython version to [3.10.7](https://github.com/brython-dev/brython/releases/tag/3.10.7).
+- 更新 Brython 版本至 [3.11.0](https://github.com/brython-dev/brython/releases/tag/3.11.0) / Update Brython version to [3.11.0](https://github.com/brython-dev/brython/releases/tag/3.11.0).
 
 ## v0.1.7/2022-06-03
 
