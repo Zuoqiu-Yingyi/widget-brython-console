@@ -30,7 +30,7 @@
     /* 引入全局主题配置文件 */
     let themeDefaultStyle = window.parent.document.getElementById('themeDefaultStyle');
     let themeStyle = window.parent.document.getElementById('themeStyle');
-    let head = document.getElementsByTagName('HEAD').item(0);
+    let head = document.head;
 
     if (themeDefaultStyle != null) {
         head.appendChild(themeDefaultStyle.cloneNode(true));

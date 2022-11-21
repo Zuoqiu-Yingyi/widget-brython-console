@@ -9,7 +9,7 @@ COLOR_DARK = "#CCC"
 BACKGROUND_COLOR_DARK = "#1F1F1F"
 
 COLOR_DEFAULT = "var(--b3-theme-on-background)"
-BACKGROUND_COLOR_DEFAULT = "transparent"
+BACKGROUND_COLOR_DEFAULT = "var(--b3-theme-background)"
 
 
 @bind("#switch-theme", "click")
