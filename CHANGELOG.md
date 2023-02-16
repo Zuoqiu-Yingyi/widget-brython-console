@@ -4,6 +4,7 @@
 - 更新 Brython 版本至 [3.11.0](https://github.com/brython-dev/brython/releases/tag/3.11.0) / Update Brython version to [3.11.0](https://github.com/brython-dev/brython/releases/tag/3.11.0).
 - 调整默认主题颜色样式 | Adjust the default theme color style.
 - 更新 Brython 版本至 [3.11.1](https://github.com/brython-dev/brython/releases/tag/3.11.1) / Update Brython version to [3.11.1](https://github.com/brython-dev/brython/releases/tag/3.11.1).
+- 调整控制台样式 / Adjust the style of console.
 
 ## v0.1.7/2022-06-03
 
